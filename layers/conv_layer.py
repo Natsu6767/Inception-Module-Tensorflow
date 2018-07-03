@@ -1,7 +1,7 @@
 import tensorflow as tf
 
-def conv_layer(x, num_filters, name, filter_height, filter_width,
-	stride = 1, padding = 'SAME'):
+def conv_layer(x, filter_height, filter_width,
+	num_filters, name, stride = 1, padding = 'SAME'):
 
 	"""Create a convolution layer."""
 	
